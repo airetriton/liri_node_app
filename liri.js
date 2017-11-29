@@ -56,7 +56,7 @@ var searchTitle = process.argv[3];
 // myTweets();
 
 
-// spotify
+// spotify **	DOESN'T WORK YET***
 // * This will show the following information about the song in your terminal/bash window
      
 //      * Artist(s)
@@ -99,7 +99,7 @@ function spotifyThisSong() {
             console.log(songURL);
             console.log(album);
                 
-                var dataObject = {Artist: artist, Song: songName, Song Preview: songURL, Album: album};
+                var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
                 fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
             } 
   		}
