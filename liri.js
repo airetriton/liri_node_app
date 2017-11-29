@@ -1,5 +1,7 @@
-var keys = require("./keys.js");
 var twitter = require("twitter");
+var keys = require("./keys.js");
+var appexp = require("express"); 
+
 var omdb = require("request");
 var spotify = require("spotify");
 var fs = require("fs");
@@ -11,14 +13,32 @@ var searchTitle = process.argv[3];
 
 var twitterKeys = keys.twitterKeys;
 
-var twitterUser = new twitter({
-    consumer_key: twitterKeys.consumer_key,
-    consumer_secret: twitterKeys.consumer_secret,
-    access_token_key: twitterKeys.access_token_key,
-    access_token_secret: twitterKeys.access_token_secret
-});
+var t = new twitter(keys);
 
-console.log(twitterUser);
+console.log(t);
+
+
+//accessing twitter
+
+function myTweets(){
+    t.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response) 
+    {
+        if(error){
+            console.log(error);
+        }else{
+            for (var i = 0; i < tweet.length; i++) {
+            console.log("================================");
+            console.log(tweet[i].text);
+            console.log(tweet[i].created_at);
+                
+                var tweetObject = {text: tweet[i].text, created: tweet[i].created_at};
+                fs.appendFileSync("log.txt", JSON.stringify(tweetObject, null, 2));;
+            }    
+        }
+    });
+};
+
+myTweets();
 
 // switch(liriCommand) {
 //     case "my-tweets":
@@ -37,18 +57,6 @@ console.log(twitterUser);
 //     randomPick();
 //     break;
 // }
-
-
-// function myTweets(){
-//     twitterUser.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response) {
-//         if(error){
-//             console.log(error);
-//         }else{
-//             console.log(tweet);
-//         }
-//     });
-// };
-
 
 
 
