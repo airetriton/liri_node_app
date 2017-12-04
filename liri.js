@@ -1,23 +1,12 @@
 var twitter = require("twitter");
-var keys = require("./keys.js");
-var t = new twitter(keys);
-
 var appexp = require("express"); 
-
 var omdb = require("request");
-
 var spotify = require("node-spotify-api");
-var keys2 = require("./keysspot.js")
-var s = new spotify(keys2);
 
 var fs = require("fs");
 
 var nodeArg = process.argv;
 var liriCommand = process.argv[2];
-var searchTitle = process.argv[3];
-
-
-
 
 
 
@@ -25,33 +14,34 @@ var searchTitle = process.argv[3];
 // console.log(s);
 
 
-//accessing twitter - it works
-//last 20 tweets & when they were created
+// accessing twitter - it works
+// last 20 tweets & when they were created
 
-// function myTweets(){
-	
+function myTweets(){
+	   var keys = require("./keys.js");
+    var t = new twitter(keys);
 
-//     t.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response) 
-//     {
-//         if(error){
-//             console.log(error);
-//         }else{
+    t.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response) 
+    {
+        if(error){
+            console.log(error);
+        }else{
 
-//         	var tweet = tweet.statuses
+        	var tweet = tweet.statuses
 
-//         	// console.log(tweet);
+        	// console.log(tweet);
 
-//             for (var i = 0; i < tweet.length; i++) {
-//             console.log("================================");
-//             console.log(tweet[i].text);
-//             console.log(tweet[i].created_at);
+            for (var i = 0; i < tweet.length; i++) {
+            console.log("================================");
+            console.log(tweet[i].text);
+            console.log(tweet[i].created_at);
                 
-//                 var tweetObject = {text: tweet[i].text, created: tweet[i].created_at};
-//                 fs.appendFileSync("log.txt", JSON.stringify(tweetObject, null, 2));;
-//             }    
-//         }
-//     });
-// };
+                var tweetObject = {text: tweet[i].text, created: tweet[i].created_at};
+                fs.appendFileSync("log.txt", JSON.stringify(tweetObject, null, 2));;
+            }    
+        }
+    });
+};
 
 // myTweets();
 
@@ -71,43 +61,97 @@ var searchTitle = process.argv[3];
 
 function spotifyThisSong() {
 	
-	var userSong;
- 	
- 	if (process.argv[3] === undefined || process.argv[3] === " "){
-		userSong = "The Sign";
+  var keys2 = require("./keysspot.js")
+  var s = new spotify({
+    id: 'e6ec134009e54a57b886e8b829fec65c',
+    secret: '9b9cb5ad5c5b46588cb216ef70067da8'});
 
-    } else{
-    	userSong = process.argv[3] 
+	//create way for system to default to "the sign" song if nothing is entered on command line
+  var searchTitle;
+
+  if (searchTitle === " " || searchTitle === undefined){
+
+    var searchTitle = process.argv[3];
+  
+  } else {
+
+    var searchTitle = "The Sign";
+
+  }
+console.log(searchTitle);
+   	
+//search spotify for a specific track or the default
+	s.search({
+    type: 'track',
+    query: 'searchTitle',
+    limit: 10
+     
+  }, function(err, data) {
+  		if (err){
+          
+      return console.log('Error occurred: ' + err);
+
+      } else {
+
+        return (data);
+        console.log('I got '+ data.tracks.total +' results');
+
+	       	var data = data.tracks.items;
+    			var artist = data[i].artists.name;
+    			var album = data[i].album.name;
+    			var songName = data[i].name;
+    			var songURL = data[i].preview_url;
+          //creat a loop to go through all of the songs
+    			for (var i = 0; i < data.length; i++) {
+              console.log("================================");
+              console.log(artist);
+              console.log(songName);
+              console.log(songURL);
+              console.log(album);
+           //create a variable that holds all of the data so it can go into a file       
+          var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
+          //put data into a file        
+          fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
+        
+        }
+    	}
     }
-
-	s.search({ q: 'userSong', type: 'track' }, function(err, data) {
-  		if (err) {
-    	return console.log('Error occurred: ' + err);
-
-  		} else {
-
-  			var data = tracks.items;
-  			var artist = data[i].album.artists.name;
-  			var album = data[i].album.name;
-  			var songName = data[i].name;
-  			var songURL = data[i].preview_url;
-
-  			for (var i = 0; i < data.length; i++) {
-            console.log("================================");
-            console.log(artist);
-            console.log(songName);
-            console.log(songURL);
-            console.log(album);
-                
-                var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
-                fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
-            } 
-  		}
-  	})	 
+  )
 };
  spotifyThisSong();	
 
 
+
+// function movieThis(){
+
+//   // Grab or assemble the movie name and store it in a variable called "movieName"
+// var movieName = process.argv[4];
+// // ...
+
+// console.log(movieName);
+// // Then run a request to the OMDB API with the movie specified
+// var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+
+
+// // This line is just to help us debug against the actual URL.
+// console.log(queryUrl,);
+
+
+// // Then create a request to the queryUrl
+// // ...
+// request(queryUrl, function(error, response, body){
+
+
+//   // If the request is successful
+//   // ...
+//   if(!error && response.statusCode === 200) {
+//     console.log("The movie's Release Year is "+ JSON.parse(body).Year);
+//   }
+
+//   // Then log the Release Year for the movie
+//   // ...
+// });
+// }
 
 
 // switch(liriCommand) {
