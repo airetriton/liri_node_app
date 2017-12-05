@@ -62,47 +62,51 @@ function myTweets(){
 function spotifyThisSong() {
 	
   var keys2 = require("./keysspot.js")
-  var s = new spotify({
-    id: 'e6ec134009e54a57b886e8b829fec65c',
-    secret: '9b9cb5ad5c5b46588cb216ef70067da8'});
+  var s = new spotify(keys2);
 
 	//create way for system to default to "the sign" song if nothing is entered on command line
   var searchTitle;
 
-  if (searchTitle === " " || searchTitle === undefined){
+  if (process.argv[3] === " " || process.argv[3] === undefined){
 
-    var searchTitle = process.argv[3];
-  
+    searchTitle = "The Sign";
+
   } else {
 
-    var searchTitle = "The Sign";
+    searchTitle = process.argv[3];
 
-  }
-console.log(searchTitle);
+  };
+
+    console.log(searchTitle);
    	
 //search spotify for a specific track or the default
 	s.search({
     type: 'track',
-    query: 'searchTitle',
+    query: searchTitle,
     limit: 10
      
   }, function(err, data) {
   		if (err){
           
-      return console.log('Error occurred: ' + err);
+      console.log('Error occurred: ' + err);
+      return;
 
       } else {
 
-        return (data);
-        console.log('I got '+ data.tracks.total +' results');
+        console.log("hello")
+        console.log(data.tracks.items)
 
-	       	var data = data.tracks.items;
-    			var artist = data[i].artists.name;
-    			var album = data[i].album.name;
-    			var songName = data[i].name;
-    			var songURL = data[i].preview_url;
-          //creat a loop to go through all of the songs
-    			for (var i = 0; i < data.length; i++) {
+         	//creat a loop to go through all of the songs
+
+    			for (var i = 0; i < data.tracks.items.length; i++) {
+            console.log("hello2", JSON.stringify(data.tracks.items[0]))
+
+            var songInfo = data.tracks.items[i];
+            console.log("hello3", songInfo.artists)
+            var artist = songInfo.artists[0].name;
+            var album = songInfo.album.name;
+            var songName = songInfo.name;
+            var songURL = songInfo.preview_url;
               console.log("================================");
               console.log(artist);
               console.log(songName);
@@ -154,17 +158,22 @@ console.log(searchTitle);
 // }
 
 
+
+
+
+
+//create the liri commands
 // switch(liriCommand) {
 //     case "my-tweets":
 //     myTweets();
 //     break;
 
 //     case "spotify-this-song":
-//     myPlayList();
+//     spotifyThisSong();
 //     break;
 
 //     case "movie-this":
-//     myMovie();
+//     movieThis();
 //     break;
 
 //     case "do-what-it-says":

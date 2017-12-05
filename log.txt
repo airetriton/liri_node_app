@@ -142,4 +142,334 @@
 }{
   "text": "These dogs make great companions!  Just love them. https://t.co/FLLP3qUGhk",
   "created": "Mon Nov 27 04:00:34 +0000 2017"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/6ba9b626bb0d823e7fb4cbb24a0411d0a445790d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ultimate Santana"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/010920b6969005c769479dca7754928b2d64382a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Santana's Greatest Hits"
+}{
+  "Artist": "Fleetwood Mac",
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/1b2747acfee7f8bab932a32cc4591dfe6e5077fa?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Pious Bird Of Good Omen"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/c48e80c8e963a396930c0ae8aa4513ed966b875e?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Abraxas"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/b7ef7df043ad5e63365a03c03e7796347d3b3bdf?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Viva Santana!"
+}{
+  "Artist": "Dennis Brown",
+  "Song": "Black Magic Woman",
+  "Preview": "https://p.scdn.co/mp3-preview/ef8c319a77730ccb7c9df3ab53814cb9d135f163?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Reggae Anthology: Dennis Brown - Crown Prince of Reggae - Singles (1972-1985)"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/5226c8e66de082a277254f8a667d90996db96746?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Santana"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/9262baf7ba99ca230c286e9fea850e5e1843f5f5?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "50 Classic Rock Favorites"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman / Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/4a9b9c996832cdbba99c4bfacf6bdeedd6acd19d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Moonflower"
+}{
+  "Artist": "Santana",
+  "Song": "Black Magic Woman/Gypsy Queen",
+  "Preview": "https://p.scdn.co/mp3-preview/3718ecd26da9dfc83a2e5b6d5303a31f561cb507?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dance Of The Rainbow Serpent"
 }
