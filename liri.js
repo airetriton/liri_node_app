@@ -46,8 +46,8 @@ function myTweets(){
 // myTweets();
 
 
-// spotify **	DOESN'T WORK YET***
-// * This will show the following information about the song in your terminal/bash window
+// spotify **	works***
+// * This will show the information about the song in your terminal/bash window
      
 //      * Artist(s)
      
@@ -122,40 +122,76 @@ function spotifyThisSong() {
     }
   )
 };
- spotifyThisSong();	
+ // spotifyThisSong();	
 
 
 
-// function movieThis(){
+function movieThis(){
 
-//   // Grab or assemble the movie name and store it in a variable called "movieName"
-// var movieName = process.argv[4];
-// // ...
+  // Grab or assemble the movie name and store it in a variable called "movieName"
+var movieName = process.argv[4];
 
-// console.log(movieName);
-// // Then run a request to the OMDB API with the movie specified
-// var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+var searchTitle;
+
+  if (process.argv[4] === " " || process.argv[4] === undefined){
+
+    searchTitle = "Mr. Nobody";
+
+  } else {
+
+    searchTitle = process.argv[4];
+
+  };
+// ...
+
+console.log(movieName);
+// Then run a request to the OMDB API with the movie specified
+var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=8ed601e1";
 
 
-// // This line is just to help us debug against the actual URL.
-// console.log(queryUrl,);
+// This line is just to help us debug against the actual URL.
+console.log(queryUrl,);
 
 
-// // Then create a request to the queryUrl
-// // ...
-// request(queryUrl, function(error, response, body){
+// Then create a request to the queryUrl
+// ...
+request(queryUrl, function(err, response, body){
 
 
-//   // If the request is successful
-//   // ...
-//   if(!error && response.statusCode === 200) {
-//     console.log("The movie's Release Year is "+ JSON.parse(body).Year);
-//   }
+  // If the request is successful
+  // ...
+  if(err && response.statusCode === 200) {
+    console.log('Error occurred: ' + err);
+  } else {
+    console.log("hello")
+    console.log(data.tracks.items)
 
-//   // Then log the Release Year for the movie
-//   // ...
-// });
-// }
+        //creat a loop to go through all of the songs
+
+        for (var i = 0; i < data.tracks.items.length; i++) {
+          console.log("hello2", JSON.stringify(data.tracks.items[0]))
+
+          var songInfo = data.tracks.items[i];
+          console.log("hello3", songInfo.artists)
+          var artist = songInfo.artists[0].name;
+          var album = songInfo.album.name;
+          var songName = songInfo.name;
+          var songURL = songInfo.preview_url;
+            console.log("================================");
+            console.log(artist);
+            console.log(songName);
+            console.log(songURL);
+            console.log(album);
+         //create a variable that holds all of the data so it can go into a file       
+        var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
+        //put data into a file        
+        fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
+
+  }
+
+    
+});
+}
 
 
 
