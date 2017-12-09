@@ -1,62 +1,52 @@
 var twitter = require("twitter");
 var appexp = require("express"); 
-var omdb = require("request");
+var request = require("request");//omdb
 var spotify = require("node-spotify-api");
-
 var fs = require("fs");
 
 var nodeArg = process.argv;
 var liriCommand = process.argv[2];
 
-
-
 // console.log(t);
 // console.log(s);
 
-
-// accessing twitter - it works
+// accessing Twitter - it works
 // last 20 tweets & when they were created
 
 function myTweets(){
-	   var keys = require("./keys.js");
-    var t = new twitter(keys);
+	var keys = require("./keys.js");
+  var t = new twitter(keys);
 
-    t.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response) 
-    {
-        if(error){
-            console.log(error);
-        }else{
+  t.get('search/tweets', {q: 'aireEspinoza', count: 20}, function(error, tweet, response){
+    if(error){
+      console.log(error);
+      return;
 
-        	var tweet = tweet.statuses
+    }else{
 
-        	// console.log(tweet);
+    var tweet = tweet.statuses
 
-            for (var i = 0; i < tweet.length; i++) {
-            console.log("================================");
-            console.log(tweet[i].text);
-            console.log(tweet[i].created_at);
-                
-                var tweetObject = {text: tweet[i].text, created: tweet[i].created_at};
-                fs.appendFileSync("log.txt", JSON.stringify(tweetObject, null, 2));;
-            }    
-        }
-    });
+    	// console.log(tweet);
+
+    for (var i = 0; i < tweet.length; i++) {
+    console.log("================================");
+    console.log(tweet[i].text);
+    console.log(tweet[i].created_at);
+        
+      var tweetObject = {text: tweet[i].text, created: tweet[i].created_at};
+      fs.appendFileSync("log.txt", JSON.stringify(tweetObject, null, 2));;
+      }    
+    }
+  });
 };
 
 // myTweets();
-
-
 // spotify **	works***
 // * This will show the information about the song in your terminal/bash window
-     
 //      * Artist(s)
-     
 //      * The song's name
-     
 //      * A preview link of the song from Spotify
-     
 //      * The album that the song is from
-
 //    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 function spotifyThisSong() {
@@ -76,7 +66,6 @@ function spotifyThisSong() {
     searchTitle = process.argv[3];
 
   };
-
     console.log(searchTitle);
    	
 //search spotify for a specific track or the default
@@ -96,79 +85,9 @@ function spotifyThisSong() {
         console.log("hello")
         console.log(data.tracks.items)
 
-         	//creat a loop to go through all of the songs
+       	//creat a loop to go through all of the songs
 
-    			for (var i = 0; i < data.tracks.items.length; i++) {
-            console.log("hello2", JSON.stringify(data.tracks.items[0]))
-
-            var songInfo = data.tracks.items[i];
-            console.log("hello3", songInfo.artists)
-            var artist = songInfo.artists[0].name;
-            var album = songInfo.album.name;
-            var songName = songInfo.name;
-            var songURL = songInfo.preview_url;
-              console.log("================================");
-              console.log(artist);
-              console.log(songName);
-              console.log(songURL);
-              console.log(album);
-           //create a variable that holds all of the data so it can go into a file       
-          var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
-          //put data into a file        
-          fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
-        
-        }
-    	}
-    }
-  )
-};
- // spotifyThisSong();	
-
-
-
-function movieThis(){
-
-  // Grab or assemble the movie name and store it in a variable called "movieName"
-var movieName = process.argv[4];
-
-var searchTitle;
-
-  if (process.argv[4] === " " || process.argv[4] === undefined){
-
-    searchTitle = "Mr. Nobody";
-
-  } else {
-
-    searchTitle = process.argv[4];
-
-  };
-// ...
-
-console.log(movieName);
-// Then run a request to the OMDB API with the movie specified
-var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=8ed601e1";
-
-
-// This line is just to help us debug against the actual URL.
-console.log(queryUrl,);
-
-
-// Then create a request to the queryUrl
-// ...
-request(queryUrl, function(err, response, body){
-
-
-  // If the request is successful
-  // ...
-  if(err && response.statusCode === 200) {
-    console.log('Error occurred: ' + err);
-  } else {
-    console.log("hello")
-    console.log(data.tracks.items)
-
-        //creat a loop to go through all of the songs
-
-        for (var i = 0; i < data.tracks.items.length; i++) {
+  			for (var i = 0; i < data.tracks.items.length; i++) {
           console.log("hello2", JSON.stringify(data.tracks.items[0]))
 
           var songInfo = data.tracks.items[i];
@@ -186,13 +105,89 @@ request(queryUrl, function(err, response, body){
         var dataObject = {Artist: artist, Song: songName, Preview: songURL, Album: album};
         //put data into a file        
         fs.appendFileSync("log.txt", JSON.stringify(dataObject, null, 2));;
+      
+      }
+    	}
+    }
+  )
+};
+ // spotifyThisSong();	
 
+//accessing OMDB to get information about a moview
+
+function movieThis(){
+
+// Grab or assemble the movie name and store it in a variable called "movieName"
+
+var movieName;
+
+  if (process.argv[4] === " " || process.argv[4] === undefined){
+
+    movieName = "Mr.Nobody";
+
+  } else {
+
+    movieName = process.argv[4];
+
+  };
+
+console.log(movieName);
+// Then run a request to the OMDB API with the movie name specified
+var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=8ed601e1";
+
+
+// This line is just to help us debug against the actual URL.
+console.log(queryUrl);
+
+// Then create a request to the queryUrl
+
+request(queryUrl, function(error, response, body){
+  console.log(response, body, error)
+
+  if(error){
+    console.log('Error occurred: ' + error);
+     return;
   }
 
-    
-});
-}
+  // if(error && response.statusCode === 200) {
+  //   console.log('Error occurred: ' + error);
+  //    return;
+  // } else {
+    console.log("hello")
+    console.log(movieName)
 
+          console.log("hello2", JSON.stringify(response))
+           
+          // var songInfo = response;
+          console.log("hello3", response.body)
+          var title = response.title;
+          var year = response.year;
+          var imdbRating = response.ratings.value[0];
+          var rottenTomsRating = response.ratings.value[1];
+          var countryProduction = response.country;
+          var language = response.language;
+          var plot = response.plot;
+          var actors = response.actors;
+            console.log("================================");
+            console.log(title);
+            console.log(year);
+            console.log(imdbRating);
+            console.log(rottenTomsRating);
+            console.log(countryProduction);
+            console.log(language);
+            console.log(plot);
+            console.log(actors);
+            console.log("================================")
+//          //create a variable that holds all of the data so it can go into a file       
+        var dataMovie = {Title: title, Year: year, IMDB: imdbRating, 'Rotten Tomatoes': rottenTomsRating, 'Country of Production': countryProduction, Language: language, Plot: plot, Actors: actors,};
+//         //put data into a file        
+        fs.appendFileSync("log.txt", JSON.stringify(dataMovie, null, 2));;
+
+        
+    // }
+  })
+};
+movieThis();
 
 
 
