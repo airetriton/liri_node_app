@@ -114,13 +114,13 @@ function movieThis(){
 
 var movieName;
 
-  if (process.argv[4] === " " || process.argv[4] === undefined){
+  if (process.argv[3] === " " || process.argv[3] === undefined){
 
     movieName = "Mr.Nobody";
 
   } else {
 
-    movieName = process.argv[4];
+    movieName = process.argv[3];
 
   };
 
@@ -147,18 +147,18 @@ request(queryUrl, function(error, response, body){
     // console.log("hello2", JSON.stringify(body))
     // console.log("hello3", JSON.parse(body))
 
-    var songInfo = JSON.parse(body)
-    // console.log("hello4", songInfo.Title)
+    var movieInfo = JSON.parse(body)
+    // console.log("hello4", movieInfo.Title)
 
-    var title = songInfo.Title;
-    var year = songInfo.Year;
-    var rating = songInfo.Ratings;
+    var title = movieInfo.Title;
+    var year = movieInfo.Year;
+    var rating = movieInfo.Ratings;
     var imdbRating = rating[0].Source.Value;
     var rottenTomsRating = rating[1].Source.Value;
-    var countryProduction = songInfo.Country;
-    var language = songInfo.Language;
-    var plot = songInfo.Plot;
-    var actors = songInfo.Actors;
+    var countryProduction = movieInfo.Country;
+    var language = movieInfo.Language;
+    var plot = movieInfo.Plot;
+    var actors = movieInfo.Actors;
       console.log("================================");
       console.log(title);
       console.log(year);
@@ -179,16 +179,18 @@ request(queryUrl, function(error, response, body){
 };
 // movieThis();
 
-function randomPick {
+function randomPick() {
   fs.readFile("random.txt", "UTF-8", function(error, data){
     if (error){
       console.log(error);
     }else{
       console.log(data);
+
     }
   })
 
-}
+};
+// randomPick();
 
 
 
@@ -211,9 +213,9 @@ switch(liriCommand) {
     break;
 
     default:
-    msg = "It won't work if you don't enter a command.  Have a nice day.";
+    console.log("It won't work if you don't enter a command.  Have a nice day.");
     break;
-}
+};
 
 
 

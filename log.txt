@@ -1,0 +1,163 @@
+{
+  "Artist": "Michael Jackson",
+  "Song": "Dirty Diana - 2012 Remaster",
+  "Preview": "https://p.scdn.co/mp3-preview/be0cb91b398fd29c9e0313cb99e6f9b9d668456f?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Bad 25th Anniversary"
+}{
+  "Artist": "Shaman's Harvest",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/a0f4ef7f89e80e68a80d9a12a491f0e43e7e37ff?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Smokin' Hearts & Broken Guns"
+}{
+  "Artist": "Michael Jackson",
+  "Song": "Dirty Diana - 2012 Remaster",
+  "Preview": "https://p.scdn.co/mp3-preview/532affb8368ee2a5d6134ef00466c8ded88d0d4d?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Scream"
+}{
+  "Artist": "Michael Jackson",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/006818fc78e9365d0de4ee1b3562bb605a7c6242?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Number Ones"
+}{
+  "Artist": "JYWRRN",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/6e587a202e79c68c0135e3486eb395bf7ff419a8?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dirty Diana"
+}{
+  "Artist": "Michael Jackson",
+  "Song": "Dirty Diana - 2012 Remaster",
+  "Preview": "https://p.scdn.co/mp3-preview/be0cb91b398fd29c9e0313cb99e6f9b9d668456f?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Bad (Remastered)"
+}{
+  "Artist": "Fame on Fire",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/64c29f6e1f1c858ae9bca02adad02da76a4ba9ff?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dirty Diana"
+}{
+  "Artist": "Starrah",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/f556cb30d2d7c96447da73234244abed1c2e4b3c?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "¯\\_(ツ)_ / ¯"
+}{
+  "Artist": "Michael Jackson",
+  "Song": "Dirty Diana",
+  "Preview": "https://p.scdn.co/mp3-preview/4a479223259675d9ea00948647cb15ec05a8ac28?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "The Essential Michael Jackson"
+}{
+  "Artist": "Mullage",
+  "Song": "Dirty Diana (feat. Weezy100it)",
+  "Preview": "https://p.scdn.co/mp3-preview/f3d7a22b95b11474869b34bb00944d773aec9425?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Dirty Diana (feat. Weezy100it)"
+}{
+  "Title": "Mr. Nobody",
+  "Year": "2009",
+  "Country of Production": "Belgium, Germany, Canada, France, USA, UK",
+  "Language": "English, Mohawk",
+  "Plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
+  "Actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"
+}{
+  "Title": "Mr. Nobody",
+  "Year": "2009",
+  "Country of Production": "Belgium, Germany, Canada, France, USA, UK",
+  "Language": "English, Mohawk",
+  "Plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
+  "Actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"
+}{
+  "Title": "Mr. Nobody",
+  "Year": "2009",
+  "Country of Production": "Belgium, Germany, Canada, France, USA, UK",
+  "Language": "English, Mohawk",
+  "Plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
+  "Actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"
+}{
+  "text": "Who loves Airedales!  I love Airedales https://t.co/spuOton5Dv",
+  "created": "Mon Dec 11 05:42:37 +0000 2017"
+}{
+  "text": "And a few more Airedales https://t.co/xoBqFno1cE",
+  "created": "Mon Dec 11 06:00:19 +0000 2017"
+}{
+  "text": "Let's get back to the fun business of Airedales. https://t.co/MQiRTLIuli",
+  "created": "Mon Dec 11 05:59:16 +0000 2017"
+}{
+  "text": "I support Bears Ears.  #stopTheDestruction https://t.co/XXxSVS4gFd",
+  "created": "Mon Dec 11 05:43:47 +0000 2017"
+}{
+  "text": "Who loves Airedales!  I love Airedales https://t.co/spuOton5Dv",
+  "created": "Mon Dec 11 05:42:37 +0000 2017"
+}{
+  "text": "And a few more Airedales https://t.co/xoBqFno1cE",
+  "created": "Mon Dec 11 06:00:19 +0000 2017"
+}{
+  "text": "Let's get back to the fun business of Airedales. https://t.co/MQiRTLIuli",
+  "created": "Mon Dec 11 05:59:16 +0000 2017"
+}{
+  "text": "I support Bears Ears.  #stopTheDestruction https://t.co/XXxSVS4gFd",
+  "created": "Mon Dec 11 05:43:47 +0000 2017"
+}{
+  "text": "Who loves Airedales!  I love Airedales https://t.co/spuOton5Dv",
+  "created": "Mon Dec 11 05:42:37 +0000 2017"
+}{
+  "Artist": "White Noise For Baby Sleep",
+  "Song": "Ocean Waves Relax",
+  "Preview": "https://p.scdn.co/mp3-preview/b9fa45580d571d7444452b7abad04b92055c8a86?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Sleep Sounds For Sleeping Soundly"
+}{
+  "Artist": "Frankie Goes To Hollywood",
+  "Song": "Relax",
+  "Preview": "https://p.scdn.co/mp3-preview/e9b37d8ace4f4ec237434a79bb9f59b6e14f4207?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Welcome To The Pleasuredome"
+}{
+  "Artist": "Rezz",
+  "Song": "Relax",
+  "Preview": "https://p.scdn.co/mp3-preview/f57ca19a5126d2ee56387ca9a843a76bac56f982?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Mass Manipulation"
+}{
+  "Artist": "Sleep Sounds of Nature",
+  "Song": "Discover Relax with a Thunderstorm",
+  "Preview": "https://p.scdn.co/mp3-preview/281b67056eb11e3051a281a5d146253daac4ecb9?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Sleep Sounds of Nature (Sound Healing from Nature Music: How to Deal with Stress, How to Meditate: Help Yourself with Musik)"
+}{
+  "Artist": "Mr. Steem",
+  "Song": "Calmness In The Rain",
+  "Preview": "https://p.scdn.co/mp3-preview/a3c7593faef11bf49e599cd8501ccd5f12625ef8?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Sunday Relax"
+}{
+  "Artist": "Big Sounds",
+  "Song": "Relax Waves",
+  "Preview": "https://p.scdn.co/mp3-preview/0327dada86ce6c04909a5ad345d4f7bb2d6407c1?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Ocean Sounds"
+}{
+  "Artist": "PARTYNEXTDOOR",
+  "Song": "Relax With Me",
+  "Preview": "https://p.scdn.co/mp3-preview/8e9295156c447bb60c4c6cec9502f9efdd97449c?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "PARTYNEXTDOOR"
+}{
+  "Artist": "Deep Sleep",
+  "Song": "Pure Brown Noise - Loopable with no fade",
+  "Preview": "https://p.scdn.co/mp3-preview/a649b8c7527163b93d202412edb1d7057d639083?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Exhaustive Collection of Soothing Brown Noise, Brown Waves and other Ambiences (Loopable Audios for Ambiance, Meditation, Insomnia, and Restless Children)"
+}{
+  "Artist": "Mother Nature FX",
+  "Song": "Relax Sleep Rain",
+  "Preview": "https://p.scdn.co/mp3-preview/3ec97d29751b38c3c1cae82bfe40bb464bbbc2f2?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "Rain Sounds"
+}{
+  "Artist": "Jon B.",
+  "Song": "I Do (Whatcha Say Boo)",
+  "Preview": "https://p.scdn.co/mp3-preview/9b915f506d7061b85f1d6b35c0ec9c8df8447d8a?cid=e6ec134009e54a57b886e8b829fec65c",
+  "Album": "COOL RELAX"
+}{
+  "Title": "Mr. Nobody",
+  "Year": "2009",
+  "Country of Production": "Belgium, Germany, Canada, France, USA, UK",
+  "Language": "English, Mohawk",
+  "Plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
+  "Actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"
+}{
+  "Title": "Michael",
+  "Year": "1996",
+  "Country of Production": "USA",
+  "Language": "English, Portuguese",
+  "Plot": "Two tabloid reporters checking out a report of the Archangel Michael living with an old woman find that it's true. But that's not the only surprise.",
+  "Actors": "John Travolta, Andie MacDowell, William Hurt, Bob Hoskins"
+}
