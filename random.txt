@@ -1,1 +1,2 @@
+#!/usr/bin/env node
 spotify-this-song,"I Want it That Way"
